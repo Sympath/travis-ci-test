@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document Title</title>
+    <!-- 引入一个公共部分的meta头部 -->
+    <%=require('raw-loader!../meta.html').default%>
+    <!-- 引入一个静态js文件 -->
+    <script></script>
+  </head>
+  <body>
+    <%=require('raw-loader!../head.html').default%>
+    <div id="root"></div>
+    <!-- <script
+      type="text/javascript"
+      src="https://11.url.cn/now/lib/16.2.0/react.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://11.url.cn/now/lib/16.2.0/react-dom.min.js"
+    ></script> -->
+  </body>
+</html>
